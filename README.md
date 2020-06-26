@@ -1,20 +1,33 @@
-# zhenkitdev
+# My Portfolio
+
+This is my personal website and you can definitely feel free to use the code. All I ask is a simple credit by linking back to [zhenkit.dev](https://zhenkit.dev). Thanks!
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ npm install
+### 🔧 Installation & Set Up
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+```
+ npm install
+```
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+### 🔥 Serve with hot reload at localhost:3000
 
-# generate static project
-$ npm run generate
+```
+npm run dev
+```
+
+### ⚡️ Building and Running for Production
+
+```
+npm run build
+npm run start
+```
+
+### 🚀 Generate static project and serve in localhost
+
+```
+npm run export
+npm run serve
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
