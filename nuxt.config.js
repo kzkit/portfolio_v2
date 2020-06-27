@@ -22,8 +22,8 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: "description",
-        name: "description",
+        hid: "Personal website of Kong Zhen Kit",
+        name: "Kong Zhen Kit",
         content: process.env.npm_package_description || ""
       }
     ],
@@ -48,7 +48,8 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode"
   ],
   /*
    ** Nuxt.js modules
