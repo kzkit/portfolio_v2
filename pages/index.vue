@@ -1,7 +1,7 @@
 <template>
   <div>
+    <Nav />
     <div class="container mx-auto xl:h-screen">
-      <Nav />
       <Header />
     </div>
     <About />
@@ -17,7 +17,20 @@ import About from "@/components/about";
 import Skill from "@/components/skill";
 import Footer from "@/components/footer";
 
-export default {};
+export default {
+  components: {
+    Nav,
+    Header,
+    About,
+    Skill,
+    Footer
+  },
+  head() {
+    return {
+      title: "Zhen Kit"
+    };
+  }
+};
 </script>
 
 <style>
