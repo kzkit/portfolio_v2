@@ -1,7 +1,9 @@
 <template>
   <footer>
     <div class="mb-1 pb-1 pl-2 relative">
-      <p class="font-sans font-mediumtext-xl text-gray-800">
+      <p
+        class="font-sans font-mediumtext-xl text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
+      >
         Inspired by
         <a
           class="half_background font-semibold"

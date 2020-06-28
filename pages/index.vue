@@ -1,9 +1,7 @@
 <template>
-  <div>
+  <div class="overflow-hidden dark:bg-blue-900 transition duration-500 ease-in-out">
     <Nav />
-    <div class="container mx-auto xl:h-screen">
-      <Header />
-    </div>
+    <Header />
     <About />
     <Skill />
     <Footer />
@@ -34,7 +32,4 @@ export default {
 </script>
 
 <style>
-.half_background {
-  background: linear-gradient(to top, #ffe200 35%, transparent 30%);
-}
 </style>
