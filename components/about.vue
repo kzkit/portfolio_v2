@@ -15,13 +15,13 @@
         </div>
         <div class="xl:mr-64 xxl:mr-64 xxl:pr-64 xxl:ml-12 xl:pr-64 mt-6 xl:ml-12">
           <p
-            class="font-sans font-bold text-2xl xl:text-3xl xxl:text-3xl text-gray-800 text-center xl:text-left xxl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
+            class="font-sans font-bold text-2xl xl:text-3xl xxl:text-4xl text-gray-800 text-center xl:text-left xxl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
           >Hi, I'm Kit! 🙋🏻‍♂️</p>
           <p
-            class="font-sans font-medium text-xl xl:text-2xl xxl:text-2xl xxl:text-left text-gray-800 text-center xl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
+            class="font-sans font-medium text-xl xl:text-2xl xxl:text-3xl xxl:text-left text-gray-800 text-center xl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
           >I am a fullstack developer based in Kuala Lumpur, MY.</p>
           <p
-            class="font-sans font-medium text-xl xl:text-2xl xxl:text-2xl xxl:text-left text-gray-800 text-center xl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
+            class="font-sans font-medium text-xl xl:text-2xl xxl:text-3xl xxl:text-left text-gray-800 text-center xl:text-left leading-relaxed dark:text-gray-300 transition duration-500 ease-in-out"
           >I enjoy tinkering with new technologies and leverage it to solve problems and build amazing applications!</p>
         </div>
       </div>

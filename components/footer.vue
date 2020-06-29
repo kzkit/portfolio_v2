@@ -11,7 +11,7 @@
         >KuangC</a>
       </p>
       <button @click="scrollToTop" class="absolute bottom-0 right-0 mb-1 mr-2">
-        <img src="../assets/img/icon-up.png" alt="go Up" />
+        <img class="xl:w-8 xxl:w-8" src="../assets/img/icon-up.png" alt="go Up" />
       </button>
     </div>
   </footer>

@@ -11,7 +11,7 @@
         </div>
         <div class="my-12 mt-6 xl:my-64 xl:mr-16 xxl:my-64 xxl:mr-16">
           <p
-            class="font-sans font-bold text-2xl xl:text-2xl xxl:text-3xl xxl:text-right text-gray-800 text-center xl:text-right dark:text-gray-300 transition duration-500 ease-in-out"
+            class="font-sans font-bold text-2xl xl:text-2xl xxl:text-4xl xxl:text-right text-gray-800 text-center xl:text-right dark:text-gray-300 transition duration-500 ease-in-out"
           >Here are a few technologies I've been working with recently 🚀</p>
           <ul class="list-none grid grid-cols-2 gap-6 mt-6">
             <li
