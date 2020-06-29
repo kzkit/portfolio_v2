@@ -6,6 +6,9 @@
  */
 module.exports = {
   theme: {
+    screens: {
+      xxl: "1920px"
+    },
     darkSelector: ".dark-mode",
     fontFamily: {
       sans: ["Roboto", "Sans-serif"]
