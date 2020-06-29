@@ -40,7 +40,6 @@ module.exports = {
       "pages/**/*.vue",
       "plugins/**/*.js",
       "nuxt.config.js"
-    ],
-    whitelist: ["dark-mode"]
+    ]
   }
 };

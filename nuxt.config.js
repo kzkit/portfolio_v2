@@ -51,6 +51,9 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode"
   ],
+  purgeCSS: {
+    whitelist: ["dark-mode"]
+  },
   /*
    ** Nuxt.js modules
    */

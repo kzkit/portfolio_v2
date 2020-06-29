@@ -1,8 +1,8 @@
 <template>
   <header>
-    <div class="container mx-auto xl:h-screen">
+    <div class="container mx-auto h-screen">
       <div class="xl:flex xl:justify-between xl:flex-row-reverse">
-        <div class="xl:flex-1 xl:relative mt-12 xl:mt-32">
+        <div class="xl:flex-1 xl:relative mt-32">
           <img
             class="xl:w-full xl:object-right xl:absolute xl:ml-64"
             src="../assets/img/gummy-programming.png"
@@ -20,7 +20,7 @@
           >Fullstack Developer</p>
           <div class="flex justify-center xl:justify-start">
             <a class="my-2 mx-2" rel="noreferrer" href="https://github.com/kzkit" target="_blank">
-              <img class="w-5 xl:w-10" src="../assets/img/github.svg" alt="github" />
+              <img class="w-5 lg:w-8 xl:w-10" src="../assets/img/github.svg" alt="github" />
             </a>
             <a
               class="my-2 mx-2"
