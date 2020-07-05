@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: "spa",
+  mode: "universal",
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -21,10 +21,11 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "keywords", content: "keyword 1, keyword 2" },
       {
-        hid: "Personal website of Kong Zhen Kit",
-        name: "Kong Zhen Kit",
-        content: process.env.npm_package_description || ""
+        hid: "description",
+        name: "description",
+        content: "This is the generic description."
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
@@ -57,7 +58,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ["@nuxt/content"],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
