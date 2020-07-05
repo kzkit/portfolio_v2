@@ -1,5 +1,7 @@
 <template>
-  <div class="overflow-hidden dark:bg-blue-900 transition duration-500 ease-in-out">
+  <div
+    class="overflow-hidden dark:bg-blue-900 transition duration-500 ease-in-out"
+  >
     <Nav />
     <Header />
     <About />
@@ -25,11 +27,17 @@ export default {
   },
   head() {
     return {
-      title: "Zhen Kit"
+      title: `Zhen Kit`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Zhen Kit personal website"
+        }
+      ]
     };
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>
