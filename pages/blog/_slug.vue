@@ -1,25 +1,20 @@
 <template>
-  <div
-    class="overflow-hidden dark:bg-blue-900 transition duration-500 ease-in-out"
-  >
+  <div class="overflow-hidden dark:bg-blue-900 transition duration-500 ease-in-out h-auto">
     <Nav />
-    <div class="container mx-auto h-screen">
+    <div class="container mx-auto mb-12">
       <article>
         <h1
           class="pt-12 text-center font-sans font-extrabold text-3xl xl:text-6xl xxl:text-6xl text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
-        >
-          {{ article.title }}
-        </h1>
+        >{{ article.title }}</h1>
         <h2
           class="text-center text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
-        >
-          {{ formatDate(article.createdAt) }}
-        </h2>
+        >{{ formatDate(article.createdAt) }}</h2>
         <h2
           class="text-center text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
-        >
-          Written by {{ article.author.name }}
-        </h2>
+        >Written by {{ article.author.name }}</h2>
+        <div class="container mx-auto px-12 flex justify-center mt-12">
+          <img class="w-6/12" :src="article.img" :alt="article.alt" />
+        </div>
         <nuxt-content
           class="container mx-auto mt-12 px-6 dark:text-gray-300 transition duration-500 ease-in-out"
           :document="article"
