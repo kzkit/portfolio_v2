@@ -7,6 +7,7 @@
 module.exports = {
   theme: {
     screens: {
+      xl: "1280px",
       xxl: "1920px"
     },
     darkSelector: ".dark-mode",
