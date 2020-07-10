@@ -1,16 +1,17 @@
----
-title: My first Blog Post
-description: Learning how to use @nuxt/content to create a blog
+˚---
+title: Easy Dark Mode in NuxtJS & TailwindCSS
+description: How I added dark mode to my NuxtJS website
 img: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 alt: code
 author:
-  name: Zhen Kit
-  bio: Mobile Developer and Advocate
+name: Zhen Kit
+bio: Mobile Developer and Technology Advocate
+
 ---
 
-# Hello world!
+# Easy 15 mins way to add dark mode in your NuxtJS website!
 
-Zi is the best and super pretty <3
+Dark mode implementation is made super easy in NuxtJs and TailwindCSS.
 
 ```javascript
 var x, y, z; // Declare 3 variables
