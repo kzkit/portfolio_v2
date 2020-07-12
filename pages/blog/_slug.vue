@@ -4,7 +4,7 @@
     <div class="container mx-auto mb-12">
       <article>
         <h1
-          class="pt-12 text-center font-sans font-extrabold text-3xl xl:text-6xl xxl:text-6xl text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
+          class="pt-12 text-center font-sans font-extrabold text-3xl xl:text-4xl xxl:text-6xl text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
         >{{ article.title }}</h1>
         <h2
           class="text-center text-gray-800 dark:text-gray-300 transition duration-500 ease-in-out"
@@ -16,7 +16,7 @@
           <img class="w-6/12" :src="article.img" :alt="article.alt" />
         </div>
         <nuxt-content
-          class="container mx-auto mt-12 px-6 dark:text-gray-300 transition duration-500 ease-in-out"
+          class="container mx-auto mt-12 px-12 dark:text-gray-300 transition duration-500 ease-in-out"
           :document="article"
         />
       </article>
@@ -62,11 +62,11 @@ export default {
 
 <style>
 .nuxt-content h1 {
-  @apply text-3xl font-bold font-sans;
+  @apply text-2xl font-bold font-sans;
 }
 
 .nuxt-content h2 {
-  @apply text-2xl font-bold font-sans;
+  @apply text-xl font-bold font-sans;
 }
 
 .nuxt-content h3 {
@@ -74,6 +74,6 @@ export default {
 }
 
 .nuxt-content p {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 </style>

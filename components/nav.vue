@@ -1,19 +1,21 @@
 <template>
   <nav class="flex justify-between">
     <div></div>
-    <div>
+    <div class="pl-12">
       <ul class="flex">
         <li class="mr-6 mt-6">
-          <a
-            class="font-sans font-semibold dark:text-white inline-block transition duration-500 ease-in-out hover:text-yellow-500 text-xl xl:text-2xl xxl:text-2xl"
-            href="#"
-          >Home</a>
+          <nuxt-link to="/">
+            <p
+              class="font-sans font-semibold dark:text-white inline-block transition duration-500 ease-in-out hover:text-yellow-500 text-xl xl:text-xl xxl:text-2xl"
+            >Home</p>
+          </nuxt-link>
         </li>
         <li class="mt-6">
-          <a
-            class="font-sans font-semibold inline-block transition duration-500 ease-in-out hover:text-yellow-500 text-xl dark:text-white xl:text-2xl xxl:text-2xl"
-            href="#"
-          >Blog</a>
+          <nuxt-link to="blogs">
+            <p
+              class="font-sans font-semibold inline-block transition duration-500 ease-in-out hover:text-yellow-500 text-xl dark:text-white xl:text-xl xxl:text-2xl"
+            >Blog</p>
+          </nuxt-link>
         </li>
       </ul>
     </div>
