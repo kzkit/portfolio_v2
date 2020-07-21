@@ -47,7 +47,7 @@ export default {
   },
   head() {
     return {
-      title: `Article 1 - Zhen Kit`,
+      title: ` ${this.article.title} - Zhen Kit`,
       meta: [
         {
           hid: "description",
