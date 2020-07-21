@@ -11,7 +11,7 @@
           </nuxt-link>
         </li>
         <li class="mt-6">
-          <nuxt-link to="blogs">
+          <nuxt-link to="/blogs">
             <p
               class="font-sans font-semibold inline-block transition duration-500 ease-in-out hover:text-yellow-500 text-xl dark:text-white xl:text-xl xxl:text-2xl"
             >Blog</p>
