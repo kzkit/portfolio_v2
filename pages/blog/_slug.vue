@@ -16,7 +16,7 @@
           <img class="w-6/12" :src="article.img" :alt="article.alt" />
         </div>
         <nuxt-content
-          class="container mx-auto mt-12 px-12 dark:text-gray-300 transition duration-500 ease-in-out"
+          class="container leading-loose mx-auto mt-12 px-64 dark:text-gray-300 transition duration-500 ease-in-out"
           :document="article"
         />
       </article>
@@ -32,7 +32,7 @@ import Footer from "@/components/footer";
 export default {
   components: {
     Nav,
-    Footer
+    Footer,
   },
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
@@ -43,7 +43,7 @@ export default {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
-    }
+    },
   },
   head() {
     return {
@@ -52,11 +52,11 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "article by zhen kit"
-        }
-      ]
+          content: "article by zhen kit",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
